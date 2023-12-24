@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrappe {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    margin: 47px 0 208px 42px;
+    cursor: pointer;
+    
+   
+}
+
+a { 
+    color: #17233D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 32px;
+    
+}
+
+button {
+    cursor: pointer;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    border-radius: 10px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+    
+                                                      
+}
+
+.caixa-left {
+    display: inline-block;
+    
+}                                            
+                                                
+
+
+.caixa-ringt {
+    display: inline-block;
+}
+
+h1 {
+    width: 582px;
+    color: #161A49;
+    font-family: Poppins;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    margin: 340px 57px 47px 84px;
+}
+
+p {
+    width: 493px;
+    margin-left: 84px;
+    color: #4B505A;
+    margin-bottom: 55px;
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px
+    
+    
+}
+
+img {
+    width: 533.834px;
+    height: 466.9px;
+    margin-left: 121px;
+}
+
+.link-saber {
+    Width: 112px;
+    Height: 27px;
+    color: #6FBF44;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 84px;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 500px) {
+      
+    .wrappe {
+        width: 390px;
+        height: 800px;
+    }
+
+    .caixa-ringt {
+        display: block;
+    }
+
+    header {
+      margin: 10px;
+
+    }
+
+    .listas {
+        display: none;
+        
+    }
+
+    button {
+        display: inline-block;
+        position:relative;
+        left: 240px;
+    
+
+    }
+
+    h1 {
+        width: 278px;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-top: 40px;
+        position: relative;
+        right: 20px;
+    }
+
+    
+    p {
+        width: 304px;
+        color: #4B505A;
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        right: 40px;
+        position: relative;
+    }
+
+    .link-saber {
+        margin: 0 auto;
+        display: block;
+    }
+
+    img {
+        display: block;
+        width: 312px;
+        height: 288px;
+        position:absolute;
+        top: 530px;
+        margin: 0 40px;
+             
+
+    }
+
+} 
