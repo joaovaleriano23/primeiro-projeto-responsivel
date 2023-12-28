@@ -14,7 +14,7 @@ header {
     margin: 47px 0 208px 42px;
     cursor: pointer;
     
-   
+ 
 }
 
 a { 
@@ -85,7 +85,7 @@ img {
     margin-left: 121px;
 }
 
-.link-saber {
+.Link-saber{
     Width: 112px;
     Height: 27px;
     color: #6FBF44;
@@ -95,7 +95,6 @@ img {
     line-height: normal;
     margin-left: 84px;
     cursor: pointer;
-    
 }
 
 @media screen and (max-width: 500px) {
@@ -152,9 +151,10 @@ img {
         position: relative;
     }
 
-    .link-saber {
+    .Link-saber {
         margin: 0 auto;
         display: block;
+
     }
 
     img {
